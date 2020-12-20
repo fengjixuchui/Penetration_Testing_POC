@@ -189,6 +189,8 @@
 - [Douphp 网站后台存储型XSS漏洞分析](./books/Douphp%20网站后台存储型XSS漏洞分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/dmFoMJaUH_ULnhu_T9jSGA)
 - [Adminer 简单的利用](./books/Adminer简单的利用.pdf)-[原文地址](https://mp.weixin.qq.com/s/fgi4S-2vdvc-pSmFGGQzgw)
 - [骑士CMS assign_resume_tpl远程代码执行分析](./books/骑士CMS%20远程代码执行分析%20-%20Panda.pdf)-[原文地址](https://www.cnpanda.net/codeaudit/827.html)
+- [kibana由原型污染导致RCE的漏洞（CVE-2019-7609）](https://github.com/mpgn/CVE-2019-7609)-[YouTube相关报告](https://www.youtube.com/watch?v=KVDOIFeRaPQ)
+- [cve-2019-17558-apache solr velocity 注入远程命令执行漏洞 ](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -294,6 +296,7 @@
 - [Python2编写的struts2漏洞全版本检测和利用工具-来自奇安信大佬Lucifer1993](https://github.com/Mr-xn/struts-scan)
 - [sqlmap_bypass_D盾_tamper](./tools/sqlmap_bypass_D盾_tamper.py)
 - [sqlmap_bypass_安全狗_tamper](./tools/sqlmap_bypass_安全狗_tamper.py)
+- [sqlmap_bypass安全狗2tamper](./tools/sqlmap_bypass_安全狗2_tamper.py)
 - [sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper](./tools/sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper.py)
 - [sqlmap_bypass_云锁_tamper](./tools/sqlmap_bypass_云锁_tamper.py)
 - [sqlmap bypass云锁tamper（利用云锁的注释不拦截缺陷，来自t00ls师傅）](https://github.com/Hsly-Alexsel/Bypass)-[t00ls原文地址](https://www.t00ls.net/thread-57788-1-1.html)|[项目留存PDF版本](./books/10种方法绕过云锁以及tamper.pdf)
@@ -532,6 +535,8 @@
 - [gshark-GitHub敏感信息扫描收集管理工具](https://github.com/madneal/gshark)
 - [domainNamePredictor-一个简单的现代化公司域名使用规律预测及生成工具](https://github.com/LandGrey/domainNamePredictor)
 - [r0capture-安卓应用层抓包通杀脚本](https://github.com/r0ysue/r0capture)
+- [【免杀】py2exe-将python脚本转换为单文件版可执行的exe文件](https://github.com/py2exe/py2exe)
+- [Kunlun-Mirror 专注于安全研究员使用的代码审计辅助工具](https://github.com/LoRexxar/Kunlun-M)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -565,6 +570,7 @@
 - [Cobal_Strike_自定义OneLiner](./books/Cobal_Strike_自定义OneLiner_Evi1cg's_blog.pdf)
 - [cobalt strike 快速上手 [ 一 ]](./books/cobalt_strike_快速上手%5B%20一%20%5D.pdf)
 - [Cobalt strike3.0使用手册](./books/Cobalt_strike3.0使用手册.pdf)
+- [Awesome-CobaltStrike-cobaltstrike的相关资源汇总](https://github.com/zer0yu/Awesome-CobaltStrike)
 - [Cobalt_Strike_Spear_Phish_Cobalt Strike邮件钓鱼制作](./books/Cobalt_Strike_Spear_Phish_Evi1cg's%20blog%20%20CS邮件钓鱼制作.md)
 - [Remote NTLM relaying through Cobalt Strike](./books/Remote_NTLM_relaying_through_CS.pdf)
 - [渗透测试神器Cobalt Strike使用教程](./books/渗透测试神器Cobalt%20Strike使用教程.pdf)
@@ -607,6 +613,7 @@
 - [【Android脱壳】_腾讯加固动态脱壳（上篇）](./books/移动安全（九）_TengXun加固动态脱壳（上篇）.pdf)
 - [【Android脱壳】腾讯加固动态脱壳（下篇）](./books/移动安全（十）_TengXun加固动态脱壳（下篇）.pdf)
 - [【Android脱壳】记一次frida实战——对某视频APP的脱壳、hook破解、模拟抓包、协议分析一条龙服务](./books/记一次frida实战——对某视频APP的脱壳、hook破解、模拟抓包、协议分析一条龙服务.pdf)
+- [【Android脱壳】-免root脱腾讯御安全加固](./books/免root脱腾讯御安全加固.pdf)
 - [【Android抓包】记一次APP测试的爬坑经历.pdf](./books/记一次APP测试的爬坑经历.pdf)
 - [完整的内网域渗透-暗月培训之项目六](./books/完整的内网域渗透-暗月培训之项目六.pdf)
 - [Android APP渗透测试方法大全](./books/Android%20APP渗透测试方法大全.pdf)
@@ -700,6 +707,7 @@
 -  [【建议收藏】Cobalt Strike学习笔记合集](./books/【建议收藏】CS学习笔记合集%20_%20Teams%20Six.pdf)
 -  [Cobalt_Strike_wiki-Cobalt Strike系列](https://github.com/aleenzz/Cobalt_Strike_wiki)
 -  [Cobalt Strike4.1系列在线手册](https://wbglil.gitbook.io/cobalt-strike/)
+-  [Cobalt Strike 4.2 Manual（cs 4.2英文手册）](./books/Cobalt%20Strike%204.2%20Manual.pdf)
 -  [域渗透之NTML-Hash总结](./books/域渗透之NTML-Hash总结.pdf)-[原文地址](https://ssooking.github.io/yu-shen-tou-zhi-ntml-hash/)
 -  [SQLite手工注入Getshell技巧](./books/SQLite手工注入Getshell技巧.pdf)-[原文地址](https://fuping.site/2017/07/19/SQLite-Injection-Get-WebShell/)
 -  [CVE-2020-1472 NetLogon 特权提升漏洞环境+详细复现步骤](./books/CVE-2020-1472%20NetLogon%20特权提升漏洞.pdf)-[原文地址](https://www.svenbeast.com/post/fu-xian-cve-2020-1472-netlogon-te-quan-ti-sheng-lou-dong/)
@@ -713,6 +721,15 @@
 -  [Android 渗透测试 frida——Brida 插件加解密实战演示](./books/Android%20渗透测试%20frida——Brida%20插件加解密实战演示.pdf)-[源处](https://xz.aliyun.com/t/7562)
 -  [一个由个人维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup](https://github.com/No-Github/1earn)-[在线版](https://ffffffff0x.gitbook.io/1earn/)
 -  [AndroidSecurityStudy-安卓应用安全学习(主要包括Frida&&FART系列)](https://github.com/r0ysue/AndroidSecurityStudy)
+-  [Mysql注入总结](./books/Mysql注入总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/09VLJjbhKmLZhJdQnvtIvQ)
+-  [ThinkAdmin未授权列目录_任意文件读取(CVE-2020-25540)漏洞复现](./books/ThinkAdmin未授权列目录_任意文件读取(CVE-2020-25540)漏洞复现.pdf)-[原文地址](https://mp.weixin.qq.com/s/ORM_6AXz-4jpg1wn82GrLg)
+-  [【免杀技巧】利用加载器以及Python反序列化绕过AV-打造自动化免杀平台](./books/利用加载器以及Python反序列化绕过AV-打造自动化免杀平台.pdf)-[原文地址](https://mp.weixin.qq.com/s/sd73eL3-TnMm0zWLCC8cOQ)
+-  [Struts2 S2-061漏洞分析(CVE-2020-17530)](./books/Struts2%20S2-061漏洞分析(CVE-2020-17530).pdf)-[原文地址](https://mp.weixin.qq.com/s/RD2HTMn-jFxDIs4-X95u6g)
+-  [CVE-2020-10977-GitLab任意文件读取漏洞复现](./books/CVE-2020-10977-GitLab任意文件读取漏洞复现.pdf)-[原地址](https://mp.weixin.qq.com/s/ZmzXk0C-o0AnBLzVMAhRJg)
+-  [Linux后门N种姿势_fuckadmin](./books/Linux后门N种姿势_fuckadmin.pdf)
+-  [安全修复建议加固方案1.0](./books/安全修复建议加固方案1.0.pdf)
+-  [Web攻防之业务安全实战指南](./books/Web攻防之业务安全实战指南.pdf)
+-  [Linux基线加固方案V1.0](./books/Linux基线加固方案V1.0.pdf)
 
 
 ## <span id="head9"> 说明</span>
