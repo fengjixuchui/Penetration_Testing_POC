@@ -319,6 +319,7 @@
 - [从内存中加载 SHELLCODE bypass AV查杀](https://github.com/brimstone/go-shellcode)|[twitter示例](https://twitter.com/jas502n/status/1213847002947051521)
 - [流量转发工具-pingtunnel是把tcp/udp/sock5流量伪装成icmp流量进行转发的工具](https://github.com/esrrhs/pingtunnel)
 - [内网渗透-创建Windows用户(当net net1 等常见命令被过滤时,一个文件执行直接添加一个管理员【需要shell具有管理员权限l】](https://github.com/newsoft/adduser)|[adduser使用方法](./adduser添加用户.md) |[【windows】绕过杀软添加管理员用户的两种方法](https://github.com/lengjibo/RedTeamTools/tree/master/windows/bypass360%E5%8A%A0%E7%94%A8%E6%88%B7)|[【windows】使用vbs脚本添加管理员用户](./使用vbs脚本添加管理员用户.md)
+- [NetUser-使用windows　api添加用户，可用于net无法使用时（支持Nim版本）](https://github.com/lengjibo/NetUser)
 - [pypykatz-通过python3实现完整的Mimikatz功能(python3.6+)](https://github.com/skelsec/pypykatz)
 - [【windows】Bypassing AV via in-memory PE execution-通过在内存中加载多次XOR后的payload来bypass杀软](https://blog.dylan.codes/bypassing-av-via/)|[作者自建gitlab地址](https://git.dylan.codes/batman/darkarmour)
 - [wafw00f-帮助你快速识别web应用是否使用何种WAF(扫描之前很有用)](https://github.com/EnableSecurity/wafw00f)
@@ -334,7 +335,7 @@
 - [A script to scan for unsecured Laravel .env files](https://github.com/tismayil/laravelN00b)
 - [STS2G-Struts2漏洞扫描Golang版-【特点:单文件、全平台支持、可在webshell下使用】](https://github.com/x51/STS2G)|[编译好的Windows版本](./tools/ST2G.exe)｜[Linux版本](./tools/ST2SG_linux)
 - [Struts2_Chek_BypassWAF.jar-struts2全版本漏洞测试工具17-6过WAF版 by:ABC_123 仅供天融信内部使用,勿用于非法用途](./tools/Struts2_Chek_BypassWAF.jar)
-- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)|[ShiroScan-Shiro RememberMe 1.2.4 反序列化漏洞图形化检测工具(Shiro-550)](https://github.com/fupinglee/ShiroScan)
+- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)|[ShiroScan-Shiro RememberMe 1.2.4 反序列化漏洞图形化检测工具(Shiro-550)](https://github.com/fupinglee/ShiroScan)|[shiro_attack-shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马,支持shiro > 1.4.2 ）](https://github.com/j1anFen/shiro_attack)-[shiro_attack_1.5.zip下载](./tools/shiro_attack_1.5.zip)
 - [weblogicScanner-完整weblogic 漏洞扫描工具修复版](https://github.com/0xn0ne/weblogicScanner)
 - [GitHub敏感信息泄露监控](https://github.com/FeeiCN/GSIL)
 - [Java安全相关的漏洞和技术demo](https://github.com/threedr3am/learnjavabug)
@@ -537,6 +538,11 @@
 - [r0capture-安卓应用层抓包通杀脚本](https://github.com/r0ysue/r0capture)
 - [【免杀】py2exe-将python脚本转换为单文件版可执行的exe文件](https://github.com/py2exe/py2exe)
 - [Kunlun-Mirror 专注于安全研究员使用的代码审计辅助工具](https://github.com/LoRexxar/Kunlun-M)
+- [JsLoader-js免杀shellcode，绕过杀毒添加自启](https://github.com/Hzllaga/JsLoader)
+- [NoMSBuild-MSBuild without MSbuild.exe](https://github.com/rvrsh3ll/NoMSBuild)
+- [thinkphp-RCE-POC-Collection-thinkphp v5.x 远程代码执行漏洞-POC集合](https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection)
+- [possessor-【过杀软行为检测】原理：在win10下创建一个第二桌面，模拟用户执行命令](https://github.com/gnxbr/Fully-Undetectable-Techniques/tree/main/possessor)
+- [MemProcFS-The Memory Process File System](https://github.com/ufrisk/MemProcFS)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -716,6 +722,7 @@
 -  [[CVE-2020-14882_14883]WebLogioc console认证绕过+任意代码执行](./books/%5BCVE-2020-14882_14883%5DWebLogioc%20console认证绕过%2B任意代码执行.pdf)-[原文地址](https://mp.weixin.qq.com/s/u8cZEcku-uIbGAVAcos5Tw)
 -  [JNDI注入学习](./books/JNDI注入学习.pdf)-[原文地址](https://www.redteaming.top/2020/08/24/JNDI-Injection/)
 -  [绕过CDN查找真实IP方法总结](./books/绕过CDN查找真实IP方法总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/aSD6kTTOdVgoZXJuqTSqDQ)
+-  [真实IP探测方法大全](./books/绕cdn探测真实ip方法大全.pdf)-[原文地址](https://blog.csdn.net/qq_38265674/article/details/110954257)
 -  [SQL注入简单总结——过滤逗号注入(附绕过tamper)](./books/SQL注入简单总结——过滤逗号注入.pdf)-[原地址](https://www.jianshu.com/p/d10785d22db2)
 -  [绕过WAF的另类webshell木马文件测试方法](./books/绕过WAF的另类webshell木马文件测试方法.pdf)-[源出](https://www.freebuf.com/articles/network/253803.html)
 -  [Android 渗透测试 frida——Brida 插件加解密实战演示](./books/Android%20渗透测试%20frida——Brida%20插件加解密实战演示.pdf)-[源处](https://xz.aliyun.com/t/7562)
@@ -730,6 +737,16 @@
 -  [安全修复建议加固方案1.0](./books/安全修复建议加固方案1.0.pdf)
 -  [Web攻防之业务安全实战指南](./books/Web攻防之业务安全实战指南.pdf)
 -  [Linux基线加固方案V1.0](./books/Linux基线加固方案V1.0.pdf)
+-  [php中函数禁用绕过的原理与利用](./books/php中函数禁用绕过的原理与利用.pdf)-[原文地址](https://mp.weixin.qq.com/s/_L379eq0kufu3CCHN1DdkA)
+-  [TP诸多限制条件下如何getshell](./books/TP诸多限制条件下如何getshell.pdf)-[原文地址](https://mp.weixin.qq.com/s/LaTNNjwDT1VzN6uA0Gq0-Q)
+-  [中间件内存马注入&冰蝎连接(附更改部分代码)](./books/中间件内存马注入&冰蝎连接(附更改部分代码).pdf)-[原文地址](https://mp.weixin.qq.com/s/eI-50-_W89eN8tsKi-5j4g)
+-  [用友NC6.5未授权文件上传漏洞分析](./books/X友NC6.5未授权文件上传漏洞分析.pdf)
+-  [钓鱼那些事（初入Office宏攻击）](./books/钓鱼那些事（初入Office宏攻击）.pdf)-[原文地址](https://mp.weixin.qq.com/s/FEhpCV5wklOqLmRvMiv20g)
+-  [ZIP已知明文攻击深入利用](./books/ZIP已知明文攻击深入利用.pdf)-[原文地址](https://www.freebuf.com/articles/network/255145.html)
+-  [组件攻击链ThinkCMF高危漏洞分析与利用](./books/组件攻击链ThinkCMF高危漏洞分析与利用.pdf)-[原文地址](https://www.freebuf.com/articles/web/255184.html)
+-  [Struts2 s2-061 Poc分析](./books/Struts2%20s2-061%20Poc分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/skV6BsARvie33vV2R6SZKw)
+-  [内含 POC 丨漏洞复现之 S2-061(CVE-2020-17530)](./books/内含POC丨漏洞复现之S2-061(CVE-2020-17530).pdf)-[原文地址](https://mp.weixin.qq.com/s/uVybuJpkvGt3HCIbfYv1tw)
+-  [Kerberos相关攻击技巧(较全)](./books/Kerberos相关攻击技巧(较全) .pdf)-[原文地址](https://xz.aliyun.com/t/8690)
 
 
 ## <span id="head9"> 说明</span>
