@@ -267,6 +267,7 @@
 - [CVE-2020-1313-Microsoft Windows Update Orchestrator Service权限提升漏洞，可用于Windows提权操作，支持新版的Windows server 2004](https://github.com/irsl/CVE-2020-1313)
 - [CVE-2020-1337-exploit-Windows 7/8/10上Print Spooler组件漏洞修复后的绕过](https://github.com/math1as/CVE-2020-1337-exploit/)|[cve-2020-1337-poc](https://github.com/sailay1996/cve-2020-1337-poc)
 - [CVE-2020-1472: NetLogon特权提升漏洞（接管域控制器）](https://github.com/VoidSec/CVE-2020-1472)|[CVE-2020-1472 .NET版本的，可以编译成独立EXE文件，可以尝试webshell执行](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon/SharpZeroLogon)|[同类型脚本](https://github.com/SecuraBV/CVE-2020-1472)|[同类型脚本二](https://github.com/dirkjanm/CVE-2020-1472)|[同类型脚本三](https://github.com/risksense/zerologon)|[同类型脚本4](https://github.com/bb00/zer0dump)
+- [awesome-browser-exploit-浏览器漏洞集合](https://github.com/Escapingbug/awesome-browser-exploit)
 
 
 ## <span id="head7"> tools-小工具集版本合</span>
@@ -331,6 +332,7 @@
 - [Cobalt Strike Aggressor 插件包](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)
 - [Erebus-Cobalt Strike后渗透测试插件,包括了信息收集、权限获取、密码获取、痕迹清除等等常见的脚本插件](https://github.com/DeEpinGh0st/Erebus)
 - [cobaltstrike后渗透插件，偏向内网常用工具（目前包含1.定位域管理员2.信息收集(采用ADfind)3.权限维持(增加了万能密码,以及白银票据)4.内网扫描(nbtscan(linux/windows通用))5.dump数据库hash(支持mysql/mssql(快速获取数据库的hash值))）](https://github.com/wafinfo/cobaltstrike)
+- [AggressorScripts-适用于Cobalt Strike 3.x & 4.x 的插件【信息搜集/提权/定位域管/读取密码/内网扫描/RDP相关/添加用户/内网穿透/权限维持/日志清除/辅助模块/】](https://github.com/z1un/Z1-AggressorScripts)
 - [IP/IP段资产扫描-->扫描开放端口识别运行服务部署网站-->自动化整理扫描结果-->输出可视化报表+整理结果](https://github.com/LangziFun/LangNetworkTopology3)
 - [A script to scan for unsecured Laravel .env files](https://github.com/tismayil/laravelN00b)
 - [STS2G-Struts2漏洞扫描Golang版-【特点:单文件、全平台支持、可在webshell下使用】](https://github.com/x51/STS2G)|[编译好的Windows版本](./tools/ST2G.exe)｜[Linux版本](./tools/ST2SG_linux)
@@ -500,6 +502,7 @@
 - [ServerScan-一款使用Golang开发的高并发网络扫描、服务探测工具](https://github.com/Adminisme/ServerScan)
 - [ShellcodeLoader-将shellcode用rsa加密并动态编译exe，自带几种反沙箱技术](https://github.com/Hzllaga/ShellcodeLoader)
 - [shellcodeloader-Windows平台的shellcode免杀加载器](https://github.com/knownsec/shellcodeloader)
+- [FourEye-重明-又一款基于python开发的对shellcode和exe文件免杀的工具](https://github.com/lengjibo/FourEye)
 - [Invoke-CustomKatz.ps1-bypass AMSI 的Mimikatz PS脚本](./tools/Invoke-CustomKatz.ps1)-[原文地址](https://s3cur3th1ssh1t.github.io/Bypass-AMSI-by-manual-modification-part-II/)-[原gits链接](https://gist.github.com/S3cur3Th1sSh1t/b33b978ea62a4b0f6ef545f1378512a6)
 - [SimpleShellcodeInjector-shellcode加载器](https://github.com/DimopoulosElias/SimpleShellcodeInjector)
 - [Arsenal-Cobalt Strike直接生成payload插件免杀360和火绒](https://github.com/Cliov/Arsenal)
@@ -519,7 +522,7 @@
 - [【威胁日志分析】DeepBlueCLI-通过Windows事件日志来搜寻威胁的powershell模块](https://github.com/sans-blue-team/DeepBlueCLI)
 - [Pentest-and-Development-Tips-三好学生大佬出品的有关渗透测试和开发的小技巧](https://github.com/3gstudent/Pentest-and-Development-Tips)
 - [【免杀】ImgLoaderShellCode-将shellcode注入bmp图片文件](https://github.com/sv3nbeast/ImgLoaderShellCode)-[配合这个更佳](https://www.svenbeast.com/post/xue-xi-tu-pian-yin-xie-shellcode-jin-xing-yuan-cheng-jia-zai-guo-av/)
-- [【免杀】DLL 代理转发与维权](./books/[免杀]DLL 代理转发与维权.pdf)-[原文地址](https://mp.weixin.qq.com/s/zUXrNsf9IsZWocrb7z3i1Q)
+- [【免杀】DLL 代理转发与维权](./books/%E3%80%90%E5%85%8D%E6%9D%80%E3%80%91DLL%20%E4%BB%A3%E7%90%86%E8%BD%AC%E5%8F%91%E4%B8%8E%E7%BB%B4%E6%9D%83.pdf)-[原文地址](https://mp.weixin.qq.com/s/zUXrNsf9IsZWocrb7z3i1Q)
 - [LangNetworkTopologys-快速进行内网资产扫描，支持端口扫描，指纹识别，网站探测，结果支持图表展示](https://github.com/LangziFun/LangNetworkTopologys)
 - [weblogic_exploit-weblogic漏洞利用工具【包括了weblogic常见高危漏洞的利用】](https://github.com/21superman/weblogic_exploit)
 - [rsync_weakpass.py-rsync弱口令爆破脚本](https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py)
@@ -543,6 +546,17 @@
 - [thinkphp-RCE-POC-Collection-thinkphp v5.x 远程代码执行漏洞-POC集合](https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection)
 - [possessor-【过杀软行为检测】原理：在win10下创建一个第二桌面，模拟用户执行命令](https://github.com/gnxbr/Fully-Undetectable-Techniques/tree/main/possessor)
 - [MemProcFS-The Memory Process File System](https://github.com/ufrisk/MemProcFS)
+- [vulmap-Web漏洞扫描和验证工具，可对Web容器、Web服务器、Web中间件以及CMS等Web程序进行漏洞扫描，并且具备漏洞利用功能](https://github.com/zhzyker/vulmap)
+- [Ary 是一个集成类工具，主要用于调用各种安全工具，从而形成便捷的一键式渗透](https://github.com/TeraSecTeam/ary)
+- [AKtools-Java版的aliyun-accesskey-Tools](https://github.com/Moon3r/AKtools)-[aliyun-accesskey-Tools-此工具用于查询ALIYUN_ACCESSKEY的主机，并且远程执行命令](https://github.com/mrknow001/aliyun-accesskey-Tools)
+- [MDAT-一款用于数据库攻击的利用工具，集合了多种主流的数据库类型](https://github.com/SafeGroceryStore/MDAT)
+- [sqlmap-gtk-sqlmap的GUI界面实现](https://github.com/needle-wang/sqlmap-gtk)
+- [Viper-msf（metasploit-framework）图形界面](https://github.com/FunnyWolf/Viper)
+- [Web-Fuzzing-Box - Web 模糊测试字典与一些Payloads，主要包含：弱口令暴力破解、目录以及文件枚举、Web漏洞](https://github.com/gh0stkey/Web-Fuzzing-Box)
+- [emp3r0r-Linux后渗透框架](https://github.com/jm33-m0/emp3r0r)
+- [dnstunnel-一款多会话的二进制DNS隧道远控](https://github.com/bigBestWay/dnstunnel)
+- [CVE-2020-17519-Apache Flink 目录遍历漏洞批量检测](https://github.com/B1anda0/CVE-2020-17519)
+- [Internal-Monologue-通过 SSPI 调⽤ NTLM 身份验证，通过协商使⽤预定义 challenge 降级为 NetNTLMv1，获取到 NetNTLMv1 hash](https://github.com/eladshamir/Internal-Monologue)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -746,7 +760,11 @@
 -  [组件攻击链ThinkCMF高危漏洞分析与利用](./books/组件攻击链ThinkCMF高危漏洞分析与利用.pdf)-[原文地址](https://www.freebuf.com/articles/web/255184.html)
 -  [Struts2 s2-061 Poc分析](./books/Struts2%20s2-061%20Poc分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/skV6BsARvie33vV2R6SZKw)
 -  [内含 POC 丨漏洞复现之 S2-061(CVE-2020-17530)](./books/内含POC丨漏洞复现之S2-061(CVE-2020-17530).pdf)-[原文地址](https://mp.weixin.qq.com/s/uVybuJpkvGt3HCIbfYv1tw)
--  [Kerberos相关攻击技巧(较全)](./books/Kerberos相关攻击技巧(较全) .pdf)-[原文地址](https://xz.aliyun.com/t/8690)
+-  [Kerberos相关攻击技巧(较全)](./books/Kerberos相关攻击技巧(较全)%20.pdf)-[原文地址](https://xz.aliyun.com/t/8690)
+-  [Intranet_Penetration_Tips-内网渗透TIPS](https://github.com/Ridter/Intranet_Penetration_Tips)
+-  [TimelineSec-2020年漏洞复现大全](https://github.com/TimelineSec/2020-Vulnerabilities)
+-  [Kerberos协议到票据伪造](./books/Kerberos协议到票据伪造.pdf)-[原文地址](https://www.zjun.info/2020/kerberos.html)
+-  [抓取HASH的10001种方法](./books/抓取HASH的10001种方法.pdf)-[原文地址](https://mp.weixin.qq.com/s/6mwms9LtLE6cK0ukpoSMmg)
 
 
 ## <span id="head9"> 说明</span>
