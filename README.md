@@ -107,7 +107,7 @@
 - [apache_solr_rce](./solr_rce.md)
 - [CVE-2019-7580 thinkcmf-5.0.190111后台任意文件写入导致的代码执行](CVE-2019-7580%20thinkcmf-5.0.190111后台任意文件写入导致的代码执行.md)
 - [Apache Flink任意Jar包上传导致远程代码执行](https://github.com/LandGrey/flink-unauth-rce)
-- [用于检测JSON接口令牌安全性测试](https://github.com/ticarpi/jwt_tool)
+- [Jwt_Tool - 用于验证、伪造、扫描和篡改 JWT（JSON Web 令牌）](https://github.com/ticarpi/jwt_tool)
 - [cve-2019-17424 nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC](cve-2019-17424%20nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC.md)
 - [CVE-2019-12409_Apache_Solr RCE](https://github.com/jas502n/CVE-2019-12409)
 - [Shiro RCE (Padding Oracle Attack)](https://github.com/wuppp/shiro_rce_exp)
@@ -206,6 +206,7 @@
 - [CVE-2021-22986-F5 BIG-IP 远程代码执行漏洞EXP](https://github.com/S1xHcL/f5_rce_poc)
 - [CNVD-2021-10543：MessageSolution 企业邮件归档管理系统 EEA 存在信息泄露漏洞](https://github.com/Henry4E36/CNVD-2021-10543)
 - [CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
+- [eyouRCE：（CNVD-2021-26422）亿邮电子邮件系统 远程命令执行漏洞 python版本](https://github.com/Henry4E36/eyouRCE)|[EYouMailRCE：jar单文件版本](https://github.com/Tas9er/EYouMailRCE)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -336,6 +337,8 @@
 
 - [CVE-2021-1732 Windows 本地权限提升漏洞](https://github.com/jessica0f0116/cve_2021_1732)
 
+- [CVE-2021-31166：HTTP协议栈远程代码执行漏洞](https://github.com/0vercl0k/CVE-2021-31166)
+
 ## <span id="head7"> tools-小工具集版本合</span>
 
 - [java环境下任意文件下载情况自动化读取源码的小工具](https://github.com/Artemis1029/Java_xmlhack)
@@ -412,7 +415,7 @@
 - [bayonet是一款src资产管理系统，从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统](https://github.com/CTF-MissFeng/bayonet)
 - [SharpToolsAggressor-内网渗透中常用的c#程序整合成cs脚本，直接内存加载](https://github.com/uknowsec/SharpToolsAggressor)
 - [【漏洞库】又一个各种漏洞poc、Exp的收集或编写](https://github.com/coffeehb/Some-PoC-oR-ExP)
-- [【内网代理】内网渗透代理转发利器reGeorg](https://github.com/sensepost/reGeorg)|**相关文章:**[配置reGeorg+Proxifier渗透内网](https://www.k0rz3n.com/2018/07/06/如何使用reGeorg+Proxifier渗透内网)|[reGeorg+Proxifier实现内网sock5代理](http://jean.ink/2018/04/26/reGeorg/)|[内网渗透之reGeorg+Proxifier](https://sky666sec.github.io/2017/12/16/内网渗透之reGeorg-Proxifier)|[reGeorg+Proxifier使用](https://xz.aliyun.com/t/228)
+- [【内网代理】内网渗透代理转发利器reGeorg](https://github.com/sensepost/reGeorg)|相关文章:[配置reGeorg+Proxifier渗透内网](https://www.k0rz3n.com/2018/07/06/如何使用reGeorg+Proxifier渗透内网)|[reGeorg+Proxifier实现内网sock5代理](http://jean.ink/2018/04/26/reGeorg/)|[内网渗透之reGeorg+Proxifier](https://sky666sec.github.io/2017/12/16/内网渗透之reGeorg-Proxifier)|[reGeorg+Proxifier使用](https://xz.aliyun.com/t/228)
 - [【内网代理】Neo-reGeorg重构的reGeorg ](https://github.com/L-codes/Neo-reGeorg)
 - [【内网代理】Tunna-通过http隧道将TCP流量代理出来](https://github.com/SECFORCE/Tunna)
 - [【内网代理】proxy.php-单文件版的php代理](https://github.com/mcnemesis/proxy.php)
@@ -482,7 +485,7 @@
 - [luject：可以将动态库静态注入到指定应用程序包的工具，目前支持Android/iPhonsOS/Windows/macOS/Linux](https://github.com/lanoox/luject)|[相关文章](https://tboox.org/cn/2020/04/26/luject/)
 - [CursedChrome：Chrome扩展植入程序，可将受害Chrome浏览器转变为功能齐全的HTTP代理，使你能够以受害人身份浏览网站](https://github.com/mandatoryprogrammer/CursedChrome)
 - [pivotnacci：通过HTTP隧道进行Socks连接](https://github.com/blackarrowsec/pivotnacci)
-- [PHPFuck-一款适用于php7以上版本的代码混淆](https://github.com/splitline/PHPFuck)|[[PHPFuck在线版本](https://splitline.github.io/PHPFuck/)
+- [PHPFuck-一款适用于php7以上版本的代码混淆](https://github.com/splitline/PHPFuck)|[PHPFuck在线版本](https://splitline.github.io/PHPFuck/)
 - [冰蝎 bypass open_basedir 的马](./tools/冰蝎bypass_open_basedir_shell.md)
 - [goproxy heroku 一键部署套装，把heroku变为免费的http(s)\socks5代理](https://github.com/snail007/goproxy-heroku)
 - [xFTP6密码解密](./tools/xFTP6密码解密.md)
@@ -695,6 +698,18 @@
 - [Z1-AggressorScripts：适用于Cobalt Strike 3.x & 4.x 的插件](https://github.com/z1un/Z1-AggressorScripts)
 - [TongdaOA-通达OA 11.7 任意用户登录](https://github.com/z1un/TongdaOA)
 - [charlotte：又一款免杀 C++ Shellcode加载器](https://github.com/9emin1/charlotte)
+- [Bytecode Viewer是一个高级的轻量级Java字节码查看器](https://github.com/Konloch/bytecode-viewer)
+- [go-crack：go 语言写的弱口令爆破工具](https://github.com/niudaii/go-crack)
+- [Metarget-一个脆弱基础设施自动化构建框架，主要用于快速、自动化搭建从简单到复杂的脆弱云原生靶机环境](https://github.com/brant-ruan/metarget)
+- [NessusToReport-nessus扫描报告自动化生成工具](https://github.com/Hypdncy/NessusToReport)
+- [cloudflare-bypass：使用Cloudflare Workers来绕过Cloudflare 的机器人验证](https://github.com/jychp/cloudflare-bypass)
+- [安全测试工具集:在学习和渗透测试过程中自己写的一些小脚本、小工具和一些常用字典、木马](https://github.com/echohun/tools)
+- [php_code_analysis：python编写的代码审计脚本（关键词匹配，类似于seay代码审计）](https://github.com/kira2040k/php_code_analysis)
+- [schemeflood：基于Schemeflood技术实现对已安装的软件进行探测](https://github.com/TomAPU/schemeflood)
+- [pocscan：指纹识别后，进行漏洞精准扫描](https://github.com/DSO-Lab/pocscan)
+- [DNSLog-Platform-Golang：一键搭建Dnslog平台的golang版本](https://github.com/yumusb/DNSLog-Platform-Golang)
+- [WinAPI-Tricks：恶意软件使用或滥用的各种 WINAPI 技巧/功能的集合](https://github.com/vxunderground/WinAPI-Tricks)
+- [go_meterpreter：Golang实现的x86下的Meterpreter reverse tcp](https://github.com/insightglacier/go_meterpreter)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -938,6 +953,26 @@
 -  [如何制作冰蝎JSP免杀WebShell](./books/如何制作冰蝎JSP免杀WebShell.pdf)
 -  [HVV行动之泛OA流量应急](./books/HVV行动之泛OA流量应急.pdf)
 -  [Java代码执行漏洞中类动态加载的应用](./books/Java代码执行漏洞中类动态加载的应用.pdf)
+-  [记一次tp5.0.24 getshell](./books/记一次tp5.0.24%20getshell.pdf)-[原文地址](https://xz.aliyun.com/t/9112)
+-  [代码审计之youdiancms最新版getshell漏洞](./books/代码审计之youdiancms最新版getshell漏洞.pdf)
+-  [x微E-Cology WorkflowServiceXml RCE](./books/x微E-Cology%20WorkflowServiceXml%20RCE.pdf)
+-  [某通用流程化管控平台编辑器SSRF到axis的RCE之旅](./books/某通用流程化管控平台编辑器SSRF到axis的RCE之旅.pdf)
+-  [手把手教你如何制作钓鱼软件反制红队](./books/手把手教你如何制作钓鱼软件反制红队.pdf)
+-  [记一次绕过火绒安全提权实战案例](./books/记一次绕过火绒安全提权实战案例.pdf)
+-  [Vulnerability-不定期从棱角社区对外进行公布的一些最新漏洞](https://github.com/EdgeSecurityTeam/Vulnerability)
+-  [Webshell之全方位免杀技巧汇总](./books/Webshell之全方位免杀技巧汇总.pdf)
+-  [Thinkphp 5.0.x_5.1.x 变量覆盖 RCE 漏洞分析](./books/Thinkphp%205.0.x_5.1.x%20变量覆盖%20RCE%20漏洞分析.pdf)
+-  [TP5.0.xRCE&5.0.24反序列化分析](./books/TP5.0.xRCE&5.0.24反序列化分析.pdf)
+-  [记一次有趣的tp5代码执行](./books/记一次有趣的tp5代码执行.pdf)
+-  [ThinkPHP 5.0.0_5.0.23 RCE 漏洞分析](./books/ThinkPHP%205.0.0_5.0.23%20RCE%20漏洞分析.pdf)
+-  [记一次tp5.0.24](./books/记一次tp5.0.24.pdf)
+-  [权限维持_Windows内核_驱动断链隐藏技术](./books/权限维持_Windows内核_驱动断链隐藏技术.pdf)
+-  [某邮件系统后台管理员任意登录分析](./books/某邮件系统后台管理员任意登录分析.pdf)
+-  [隐藏CS源IP，提高溯源难度的几种方案](./books/隐藏CS源IP，提高溯源难度的几种方案.pdf)
+-  [CS使用请求转发隐藏真实IP](.books/CS使用请求转发隐藏真实IP.pdf)
+-  [go免杀初探](./books/go免杀初探.pdf)
+-  [记一次绕过防火墙反弹转发姿势小结](./books/记一次绕过防火墙反弹转发姿势小结.pdf)
+-  [内网渗透中如何离线解密 RDP 保存的密码](./books/内网渗透中如何离线解密%20RDP%20保存的密码.pdf)
 
 ## <span id="head9"> 说明</span>
 
