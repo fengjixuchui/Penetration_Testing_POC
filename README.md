@@ -36,6 +36,8 @@
 - [wacker：一组脚本，可辅助对WPA3接入点执行在线词典攻击](https://github.com/blunderbuss-wctf/wacker)
 - [CVE-2020-24581 D-Link DSL-2888A 远程命令执行漏洞分析](./books/CVE-2020-24581%20D-Link%20DSL-2888A%20远程命令执行漏洞分析.pdf)-[原地址](https://www.anquanke.com/post/id/229323)
 - [CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞](./CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞.md)
+- [CNVD-2021-14544:Hikvision 海康威视流媒体管理服务器任意文件读取](https://github.com/Henry4E36/Hikvision)
+- [CNVD-2020-25078:D-link 敏感信息泄漏，可以直接获取账户密码查看监控](https://github.com/Henry4E36/D-link-information)
 
 ## <span id="head4">Web APP</span>
 
@@ -229,7 +231,7 @@
 - [CVE-2020-0796 - Windows SMBv3 LPE exploit #SMBGhost](https://github.com/danigargu/CVE-2020-0796)|[【Windows提取】Windows SMBv3 LPE exploit 已编译版.exe](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)|[SMBGhost_RCE_PoC-远程代码执行EXP](https://github.com/chompie1337/SMBGhost_RCE_PoC)|[Windows_SMBv3_RCE_CVE-2020-0796漏洞复现](./books/Windows_SMBv3_RCE_CVE-2020-0796漏洞复现.pdf)
 - [getAV---windows杀软进程对比工具单文件版](./tools/getAV/)
 - [【Windows提权工具】Windows 7 to Windows 10 / Server 2019](https://github.com/CCob/SweetPotato)|[搭配Cobalt Strike的修改版可上线system权限的session](https://github.com/lengjibo/RedTeamTools/tree/master/windows/SweetPotato)
-- [【Windows提权工具】SweetPotato修改版，用于webshell下执行命令](https://github.com/uknowsec/SweetPotato)|[本地编译好的版本](./tools/SweetPotato.zip)|[点击下载或右键另存为](https://raw.githubusercontent.com/Mr-xn/Penetration_Testing_POC/master/tools/SweetPotato.zip)|[SweetPotato_webshell下执行命令版.pdf](./books/SweetPotato_webshell下执行命令版.pdf)
+- [【Windows提权工具】SweetPotato修改版，用于webshell下执行命令](https://github.com/uknowsec/SweetPotato)|[本地编译好的版本](./tools/SweetPotato.zip)|[点击下载或右键另存为](https://raw.githubusercontent.com/Mr-xn/Penetration_Testing_POC/master/tools/SweetPotato.zip)|[SweetPotato_webshell下执行命令版.pdf](./books/SweetPotato_webshell下执行命令版.pdf)|[JuicyPotato修改版-可用于webshell](https://github.com/uknowsec/JuicyPotato)
 - [【bypass UAC】Windows 8.1 and 10 UAC bypass abusing WinSxS in "dccw.exe"](https://github.com/L3cr0f/DccwBypassUAC/)
 - [【Windows提权】CVE-2018-8120 Exploit for Win2003 Win2008 WinXP Win7](https://github.com/alpha1ab/CVE-2018-8120)
 - [【Windows提权 Windows 10&Server 2019】PrintSpoofer-Abusing Impersonation Privileges on Windows 10 and Server 2019](https://github.com/itm4n/PrintSpoofer)|[配合文章食用-pipePotato复现](./books/pipePotato复现.pdf)|[Windows 权限提升 BadPotato-已经在Windows 2012-2019 8-10 全补丁测试成功](https://github.com/BeichenDream/BadPotato)
@@ -339,6 +341,10 @@
 
 - [CVE-2021-31166：HTTP协议栈远程代码执行漏洞](https://github.com/0vercl0k/CVE-2021-31166)
 
+- [Windows本地提权漏洞：CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
+
+- [【Linux提权】CVE-2021-3560 Local PrivEsc Exploit](https://github.com/swapravo/polkadots)
+
 ## <span id="head7"> tools-小工具集版本合</span>
 
 - [java环境下任意文件下载情况自动化读取源码的小工具](https://github.com/Artemis1029/Java_xmlhack)
@@ -407,7 +413,7 @@
 - [A script to scan for unsecured Laravel .env files](https://github.com/tismayil/laravelN00b)
 - [STS2G-Struts2漏洞扫描Golang版-【特点:单文件、全平台支持、可在webshell下使用】](https://github.com/x51/STS2G)|[编译好的Windows版本](./tools/ST2G.exe)｜[Linux版本](./tools/ST2SG_linux)
 - [Struts2_Chek_BypassWAF.jar-struts2全版本漏洞测试工具17-6过WAF版 by:ABC_123 仅供天融信内部使用,勿用于非法用途](./tools/Struts2_Chek_BypassWAF.jar)
-- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)|[ShiroScan-Shiro RememberMe 1.2.4 反序列化漏洞图形化检测工具(Shiro-550)](https://github.com/fupinglee/ShiroScan)|[shiro_attack-shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马,支持shiro > 1.4.2 ）](https://github.com/j1anFen/shiro_attack)-[shiro_attack_1.5.zip下载](./tools/shiro_attack_1.5.zip)
+- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)|[ShiroScan-Shiro RememberMe 1.2.4 反序列化漏洞图形化检测工具(Shiro-550)](https://github.com/fupinglee/ShiroScan)|[shiro_attack-shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马,支持shiro > 1.4.2 ）](https://github.com/j1anFen/shiro_attack)-[shiro_attack_1.5.zip下载](./tools/shiro_attack_1.5.zip)|[又一个Shiro反序列化利用工具](https://github.com/LWZXS/JavaTools)
 - [weblogicScanner-完整weblogic 漏洞扫描工具修复版](https://github.com/0xn0ne/weblogicScanner)
 - [GitHub敏感信息泄露监控](https://github.com/FeeiCN/GSIL)
 - [Java安全相关的漏洞和技术demo](https://github.com/threedr3am/learnjavabug)
@@ -423,6 +429,7 @@
 - [【内网代理】毒刺(pystinger)通过webshell实现**内网SOCK4代理**,**端口映射**.](https://github.com/FunnyWolf/pystinger)|[pystinger.zip-下载](./tools/pystinger.zip)
 - [【内网代理】php-proxy-app-一款代理访问网站的工具](https://github.com/Athlon1600/php-proxy-app)
 - [【内网代理】reDuh-通过http隧道搭建代理（比较远古，酌情使用）](https://github.com/sensepost/reDuh)
+- [【内网代理】chisel：一款快速稳定的隧道工具(通过HTTP传输使用SSH加密)](https://github.com/jpillora/chisel) - [相关文章介绍](https://www.anquanke.com/post/id/234771)
 - [get_Team_Pass-获取目标机器上的teamviewerID和密码(你需要具有有效的目标机器账号密码且目标机器445端口可以被访问(开放445端口))](https://github.com/kr1shn4murt1/get_Team_Pass/)
 - [chromepass-获取chrome保存的账号密码/cookies-nirsoft出品在win10+chrome 80测试OK](./tools/chromepass/)|[SharpChrome-基于.NET 2.0的开源获取chrome保存过的账号密码/cookies/history](https://github.com/djhohnstein/SharpChrome)|[ChromePasswords-开源获取chrome密码/cookies工具](https://github.com/malcomvetter/ChromePasswords)
 - [java-jdwp远程调试利用](https://github.com/Lz1y/jdwp-shellifier)|相关文章:[jdwp远程调试与安全](https://qsli.github.io/2018/08/12/jdwp/)
@@ -624,7 +631,7 @@
 - [MemProcFS-The Memory Process File System](https://github.com/ufrisk/MemProcFS)
 - [vulmap-Web漏洞扫描和验证工具，可对Web容器、Web服务器、Web中间件以及CMS等Web程序进行漏洞扫描，并且具备漏洞利用功能](https://github.com/zhzyker/vulmap)
 - [Ary 是一个集成类工具，主要用于调用各种安全工具，从而形成便捷的一键式渗透](https://github.com/TeraSecTeam/ary)
-- [AKtools-Java版的aliyun-accesskey-Tools](https://github.com/Moon3r/AKtools)-[aliyun-accesskey-Tools-此工具用于查询ALIYUN_ACCESSKEY的主机，并且远程执行命令](https://github.com/mrknow001/aliyun-accesskey-Tools)
+- [AKtools-Java版的aliyun-accesskey-Tools](https://github.com/Moon3r/AKtools)|[aliyun-accesskey-Tools-此工具用于查询ALIYUN_ACCESSKEY的主机，并且远程执行命令](https://github.com/mrknow001/aliyun-accesskey-Tools)|[alicloud-tools：阿里云ECS、策略组辅助小工具](https://github.com/iiiusky/alicloud-tools)
 - [MDAT-一款用于数据库攻击的利用工具，集合了多种主流的数据库类型](https://github.com/SafeGroceryStore/MDAT)
 - [sqlmap-gtk-sqlmap的GUI界面实现](https://github.com/needle-wang/sqlmap-gtk)
 - [Viper-msf（metasploit-framework）图形界面](https://github.com/FunnyWolf/Viper)
@@ -687,6 +694,7 @@
 - [jenkins-attack-framework-Jenkins攻击框架](https://github.com/Accenture/jenkins-attack-framework)
 - [MicroBackdoor-适用于Windows目标的小型便捷C2工具](https://github.com/Cr4sh/MicroBackdoor)
 - [puredns-子域爆破工具](https://github.com/d3mondev/puredns)
+- [dnsub:子域名扫描工具](https://github.com/yunxu1/dnsub)
 - [DcRat-C#编写的简易远控工具](https://github.com/qwqdanchun/DcRat)
 - [PhishingLnk-windows钓鱼快捷方式link生成工具](https://github.com/qwqdanchun/PhishingLnk)
 - [paragon-Red Team互动平台，旨在统一简单UI后的进攻工具](https://github.com/KCarretto/paragon)
@@ -712,6 +720,15 @@
 - [WinAPI-Tricks：恶意软件使用或滥用的各种 WINAPI 技巧/功能的集合](https://github.com/vxunderground/WinAPI-Tricks)
 - [go_meterpreter：Golang实现的x86下的Meterpreter reverse tcp](https://github.com/insightglacier/go_meterpreter)
 - [sharpwmi：一个基于rpc的横向移动工具，具有上传文件和执行命令功能](https://github.com/QAX-A-Team/sharpwmi)
+- [RedWarden：灵活的配置C2反向代理来隐藏自己的CS](https://github.com/mgeeky/RedWarden)
+- [MemoryShellLearn:java内存马的学习记录以及demo](https://github.com/bitterzzZZ/MemoryShellLearn)
+- [图形化漏洞利用Demo-JavaFX版:ExpDemo-JavaFX ](https://github.com/yhy0/ExpDemo-JavaFX)
+- [Security_Product:开源安全产品源码](https://github.com/birdhan/Security_Product)
+- [flask_memory_shell:Flask 内存马](https://github.com/iceyhexman/flask_memory_shell)
+- [SourceDetector:用于发现源码文件(*.map)的chrome插件](https://github.com/SunHuawei/SourceDetector)
+- [CrossNet-Beta:红队行动中利用白利用、免杀、自动判断网络环境生成钓鱼可执行文件](https://github.com/dr0op/CrossNet-Beta)
+- [slopShell：一款功能强大的PHP Webshell](https://github.com/oldkingcone/slopShell)
+- [rustcat:netcat的代替品](https://github.com/robiot/rustcat)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -975,6 +992,10 @@
 -  [go免杀初探](./books/go免杀初探.pdf)
 -  [记一次绕过防火墙反弹转发姿势小结](./books/记一次绕过防火墙反弹转发姿势小结.pdf)
 -  [内网渗透中如何离线解密 RDP 保存的密码](./books/内网渗透中如何离线解密%20RDP%20保存的密码.pdf)
+-  [Gadgets：Java反序列化漏洞利用链补全计划，仅用于个人归纳总结](https://github.com/0range228/Gadgets)
+-  [Java-Rce-Echo：Java RCE 回显测试代码](https://github.com/feihong-cs/Java-Rce-Echo)
+-  [利用heroku隐藏C2服务器](./books/利用heroku隐藏C2服务器.pdf)
+-  [SQL注入基础整理及Tricks总结](./books/SQL注入基础整理及Tricks总结.pdf)
 
 ## <span id="head9"> 说明</span>
 
@@ -986,7 +1007,6 @@
 
 <details>  
 <summary>其他杂项</summary>
-
 ### 喜讯
 
 在`2020-08-16`登上`GitHub`的`Trending`日榜，谢谢大家支持，谢谢那些在freebuf和公众号推荐的师傅，我会继续努力，期待有靠谱的师傅一起来维护优化，感兴趣的邮箱联系我吧！
