@@ -248,7 +248,7 @@
 - [【Windows提权】dazzleUP是一款用来帮助渗透测试人员进行权限提升的工具，可以在window系统中查找脆弱面进行攻击。工具包括两部分检查内容，exploit检查和错误配置检查。](https://github.com/hlldz/dazzleUP)
 - [【Windows提权】KernelHub-近二十年Windows权限提升集合](https://github.com/Ascotbe/KernelHub)
 - [【Windows提权】Priv2Admin-Windows提权工具](https://github.com/gtworek/Priv2Admin)
-- [【windows提权】利用有漏洞的技嘉驱动程序来加载恶意的驱动程序提升权限或干掉驱动级保护的杀软](https://github.com/alxbrn/gdrv-loader)
+- [【windows提权】利用有漏洞的技嘉驱动程序来加载恶意的驱动程序提升权限或干掉驱动级保护的杀软](https://github.com/alxbrn/gdrv-loader)|[备份地址](https://github.com/Mr-xn/gdrv-loader)
 - [【windows提权】byeintegrity-uac：通过劫持位于本机映像缓存中的DLL绕过UAC](https://github.com/AzAgarampur/byeintegrity-uac)
 
 ## <span id="head6"> PC</span>
@@ -383,6 +383,8 @@
 - [使用powershell或CMD直接运行命令反弹shell](https://github.com/ZHacker13/ReverseTCPShell)
 - [GitHack-.git泄露利用脚本](https://github.com/lijiejie/GitHack)
 - [GitHacker---比GitHack更好用的git泄露利用脚本](https://github.com/WangYihang/GitHacker)
+- [git-dumper:一款优秀的.git泄漏文件dump工具](https://github.com/arthaud/git-dumper)
+- [GitHackTool：号称Git信息泄露唯一可用工具](https://github.com/safesword/GitHackTool)
 - [SVN源代码泄露全版本Dump源码](https://github.com/admintony/svnExploit)
 - [dumpall-多种泄漏形式，一种利用方式【支持.git源代码泄漏.svn源代码泄漏.DS_Store信息泄漏目录列出信息泄漏】](https://github.com/0xHJK/dumpall)
 - [多进程批量网站备份文件扫描](https://github.com/sry309/ihoneyBakFileScan)
@@ -729,6 +731,11 @@
 - [CrossNet-Beta:红队行动中利用白利用、免杀、自动判断网络环境生成钓鱼可执行文件](https://github.com/dr0op/CrossNet-Beta)
 - [slopShell：一款功能强大的PHP Webshell](https://github.com/oldkingcone/slopShell)
 - [rustcat:netcat的代替品](https://github.com/robiot/rustcat)
+- [Backstab:通过加载恶意的驱动文件干掉杀软](https://github.com/Yaxser/Backstab)
+- [ncDecode：用友nc数据库密码解密工具](https://github.com/jas502n/ncDecode)
+- [JSFinder是一款用作快速在网站的js文件中提取URL，子域名的工具](https://github.com/Threezh1/JSFinder)|[JSFinder的油猴脚本版本](https://github.com/Threezh1/Deconstruct/tree/main/DevTools_JSFinder)
+- [Packer-Fuzzer：一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具](https://github.com/rtcatc/Packer-Fuzzer)
+- [post-hub：内网仓库：远控、提权、免杀、代理、横向、清理](https://github.com/ybdt/post-hub)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -996,6 +1003,10 @@
 -  [Java-Rce-Echo：Java RCE 回显测试代码](https://github.com/feihong-cs/Java-Rce-Echo)
 -  [利用heroku隐藏C2服务器](./books/利用heroku隐藏C2服务器.pdf)
 -  [SQL注入基础整理及Tricks总结](./books/SQL注入基础整理及Tricks总结.pdf)
+-  [利用netplwiz.exe Bypass UAC](./books/利用netplwiz.exe_Bypass_UAC.pdf)
+-  [dscmsV2.0二次注入及任意文件删除漏洞分析](./books/dscmsV2.0二次注入及任意文件删除漏洞分析.pdf)
+-  [脏牛提权复现以及如何得到一个完全交互的shell](./books/脏牛提权复现以及如何得到一个完全交互的shell.pdf)
+-  [在没有执行和写入权限下注入shellcode-Process Injection without Write_Execute Permission](./books/Process20%Injection20%without20%Write_Execute20%Permission20%_20%Ret2Pwn.pdf)
 
 ## <span id="head9"> 说明</span>
 
